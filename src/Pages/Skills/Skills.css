@@ -1,0 +1,64 @@
+.skill-body{
+    background-color: #1a1728;
+    color: white;
+    padding: 40px 80px;
+    margin-top: 5px;
+}
+.small-cer{
+    color: blue;
+}
+.msc-containerS{
+    margin-top: 60px;
+    column-count: 2;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+    padding: 20px 30px;
+    transition-duration: 1.5s;
+}
+
+.msc-containerS:hover{
+    box-shadow: 0 0 25px rgb(235, 152, 152);
+    padding: 20px 10px;
+}
+.msc-containerS img{
+    width: 700px;
+    height: 440px;
+    box-shadow: 0 0 10px rgb(235, 152, 152);
+    background-color: #1F4F4F;
+    font-size: 24px;
+    border: 7px solid red;
+    min-height: 3em;
+    resize: both;
+    background-color:lavender;
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 8s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+
+}
+
+@media only screen and (max-width: 516px){
+    
+    .msc-containerS{
+        margin-top: 40px;
+        column-count: 1;
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+        padding: 10px;
+    }
+    .msc-containerS:hover{
+        box-shadow: 0 0 10px rgb(235, 152, 152);
+        padding: 10px;
+    }
+    .msc-containerS img{
+        width: 490px;
+        height: 200px;
+        border: 4px solid red;
+        min-height: 3em;
+        resize: both;
+        background-color:lavender;
+        border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 8s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+
+    }
+    .skill-body{
+        background-color: #1a1728;
+        color: white;
+        padding: 20px 15px;
+    }
+     
+}
