@@ -9,6 +9,8 @@ import g from '../assets/certificate/g.png'
 import h from '../assets/certificate/h.png'
 import i from '../assets/certificate/i.jpg'
 import j from '../assets/certificate/j.png'
+import l from '../assets/certificate/l.png'
+import m from '../assets/certificate/m.png'
 import k from '../assets/certificate/k.jpeg'
 
 import './Skills.css'
@@ -84,6 +86,30 @@ const Skills = () => {
                     <h2>Course: Mobile Application Development (Cross Platform)</h2>
                     <p>Issue Date: February 27, 2022</p>
                     <p>Course Duration: Two Hundred Hours</p>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={l} alt="" />
+                </div>
+                <div>
+                    <h1 className='text-header flick-cv'>Bohubrihi</h1>
+                    <h2>Course: Pathway to Software Engineering</h2>
+                    <p>Issue Date: July 27, 2023</p>
+                    
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={m} alt="" />
+                </div>
+                <div>
+                    <h1 className='text-header flick-cv'> Creative IT Institute</h1>
+                    <h2>Workshop and Training on 'Blockchain and Machine Learning'</h2>
+                    <p>Issue Date: July 25, 2023</p>
+                    <p>Workshop and Training Duration: 3 Days</p>
                 </div>
                 </div>
 
