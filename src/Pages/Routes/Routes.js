@@ -22,7 +22,7 @@ export const routes = createBrowserRouter([
                 element: <ArticleandPaper></ArticleandPaper>,
             },
             {
-                path: '/certificate1',
+                path: '/certificate',
                 element: <Skills></Skills>,
             },
             

@@ -4,9 +4,12 @@
     padding: 6px;
     border: 6px solid gray;
 }
+.img-sec{
+    margin-right: 50px;
+}
 .display-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 70px;
 }
 .img-skill{
@@ -221,6 +224,9 @@
     .margin-ico{
         margin: 20px;
         margin-top: 40px;
+    }
+    .img-sec{
+        margin-right: 00px;
     }
 }
 

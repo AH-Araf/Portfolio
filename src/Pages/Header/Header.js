@@ -25,7 +25,7 @@ const Header = () => {
       </li> */}
      
      <li className='header-option1'><Link to='/projects'>Projects</Link></li>
-        <li className='header-option1'><Link to='/certificate1'>Certificate</Link></li>
+        <li className='header-option1'><Link to='/certificate'>Certificate</Link></li>
         <li className='header-option1'><Link to='/education'>Education</Link></li>
         <li className='header-option1'><Link to='/experience'>Experience</Link></li>
         <li className='header-option1'><Link to='/contact'>Contact</Link></li>
@@ -62,7 +62,7 @@ const Header = () => {
       </li> */}
       
       <li className='header-option1'><Link to='/projects'>Projects</Link></li>
-        <li className='header-option1'><Link to='/certificate1'>Certificate</Link></li>
+        <li className='header-option1'><Link to='/certificate'>Certificate</Link></li>
         <li className='header-option1'><Link to='/education'>Education</Link></li>
         <li className='header-option1'><Link to='/experience'>Experience</Link></li>
         <li className='header-option1'><Link to='/contact'>Contact</Link></li>
